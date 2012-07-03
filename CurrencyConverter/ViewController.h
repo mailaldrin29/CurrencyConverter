@@ -7,7 +7,29 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CurrencyTableViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CurrencyTableViewControllerDelegate,UISearchBarDelegate>{
+    
+    UIButton *currencyBtnOne;
+    UIButton *currencyBtnTwo;
+    UISearchBar *currencyFieldOne;
+    UISearchBar *currencyFieldTwo;
+    NSArray *keys;
+    NSArray *values;
+    NSDictionary *forExRates;
+    NSDictionary *currencies;
+    UITabBarController *tabBarController;
+    UINavigationController *navController;
+    BOOL isBtnOneClicked;
+    BOOL isBtnTwoCLicked;
+    float baseCurrencyValue;
+    float rateOne;
+    float rateTwo;
+    NSArray *alphbetsArray;
+    NSMutableDictionary *sectionValues;
+    NSMutableArray *sections;
+    NSMutableArray *tempArray;
+}
 
 @end

@@ -15,6 +15,8 @@
 		A41CC2C515A2D62E0090A6C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A41CC2C415A2D62E0090A6C9 /* AppDelegate.m */; };
 		A41CC2C815A2D62E0090A6C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41CC2C715A2D62E0090A6C9 /* ViewController.m */; };
 		A41CC2CB15A2D62E0090A6C9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41CC2C915A2D62E0090A6C9 /* ViewController.xib */; };
+		A41CC2D515A2D6C80090A6C9 /* CurrencyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41CC2D215A2D6C70090A6C9 /* CurrencyTableViewController.m */; };
+		A41CC2D615A2D6C80090A6C9 /* FavouriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41CC2D415A2D6C80090A6C9 /* FavouriteTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,19 @@
 		A41CC2B415A2D62E0090A6C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A41CC2B615A2D62E0090A6C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A41CC2B815A2D62E0090A6C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A41CC2BC15A2D62E0090A6C9 /* CurrencyConverter-Info.plist */ = {isa = PBXFileReference; path = "CurrencyConverter-Info.plist"; sourceTree = "<group>"; };
+		A41CC2BC15A2D62E0090A6C9 /* CurrencyConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverter-Info.plist"; sourceTree = "<group>"; };
 		A41CC2BE15A2D62E0090A6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A41CC2C015A2D62E0090A6C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A41CC2C215A2D62E0090A6C9 /* CurrencyConverter-Prefix.pch */ = {isa = PBXFileReference; path = "CurrencyConverter-Prefix.pch"; sourceTree = "<group>"; };
-		A41CC2C315A2D62E0090A6C9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A41CC2C215A2D62E0090A6C9 /* CurrencyConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurrencyConverter-Prefix.pch"; sourceTree = "<group>"; };
+		A41CC2C315A2D62E0090A6C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A41CC2C415A2D62E0090A6C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A41CC2C615A2D62E0090A6C9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A41CC2C615A2D62E0090A6C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A41CC2C715A2D62E0090A6C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A41CC2CA15A2D62E0090A6C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A41CC2D115A2D6C70090A6C9 /* CurrencyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyTableViewController.h; sourceTree = "<group>"; };
+		A41CC2D215A2D6C70090A6C9 /* CurrencyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyTableViewController.m; sourceTree = "<group>"; };
+		A41CC2D315A2D6C80090A6C9 /* FavouriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteTableViewController.h; sourceTree = "<group>"; };
+		A41CC2D415A2D6C80090A6C9 /* FavouriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				A41CC2C415A2D62E0090A6C9 /* AppDelegate.m */,
 				A41CC2C615A2D62E0090A6C9 /* ViewController.h */,
 				A41CC2C715A2D62E0090A6C9 /* ViewController.m */,
+				A41CC2D115A2D6C70090A6C9 /* CurrencyTableViewController.h */,
+				A41CC2D215A2D6C70090A6C9 /* CurrencyTableViewController.m */,
+				A41CC2D315A2D6C80090A6C9 /* FavouriteTableViewController.h */,
+				A41CC2D415A2D6C80090A6C9 /* FavouriteTableViewController.m */,
 				A41CC2C915A2D62E0090A6C9 /* ViewController.xib */,
 				A41CC2BB15A2D62E0090A6C9 /* Supporting Files */,
 			);
@@ -163,6 +173,8 @@
 				A41CC2C115A2D62E0090A6C9 /* main.m in Sources */,
 				A41CC2C515A2D62E0090A6C9 /* AppDelegate.m in Sources */,
 				A41CC2C815A2D62E0090A6C9 /* ViewController.m in Sources */,
+				A41CC2D515A2D6C80090A6C9 /* CurrencyTableViewController.m in Sources */,
+				A41CC2D615A2D6C80090A6C9 /* FavouriteTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
