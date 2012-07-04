@@ -23,6 +23,7 @@
     NSArray *alphbetsArray;
     id<CurrencyTableViewControllerDelegate>delegate;
     NSArray *sections;
+    
     NSMutableDictionary *sectionValues;
 }
 
