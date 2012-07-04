@@ -24,6 +24,7 @@
     id<CurrencyTableViewControllerDelegate>delegate;
     NSArray *sections;
     
+    
     NSMutableDictionary *sectionValues;
 }
 
